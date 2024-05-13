@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    color: #000;
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.container{
+    width: 80rem
+}
+.header{
+    display: flex;
+    width: auto;
+    color: #000;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h2 span{
+    color: #69B99D;
+}
+.header ul{
+    justify-content: space-between;
+}
+.header a{
+    text-decoration: none;
+}
+.header a{
+    color: gray;
+}
+.header a span{
+    color: #69B99D;
+}
+.logo img{
+    width: 8rem;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    margin: 10px 30px 10px 30px;
+    text-decoration: none;
+    list-style: none;
+}
+.home{
+    display: flex;
+    margin-top: 4rem;
+}
+.card-left,
+.card-right{
+    width: 40rem;
+    margin-top: 2rem;
+}
+.home .card-left{
+    align-items: center;
+    justify-content: flex-end;
+}
+.home .card-right h1{
+    font-size: 2.5rem;
+}
+.home .card-left p{
+    font-size: 1rem;
+    color: rgb(108, 117, 125);
+    margin-top: 2rem;
+}
+.home .card-left .agendar button{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #69B99D;
+    color: #fff;
+    margin-top: 2rem;
+    border: none;
+}
+.home .card-right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.home .card-right img{
+    width: 40rem;
+}
+.servicos{
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: #fff;
+}
+
+.servicos1{
+    text-align: center;
+}
